@@ -1,0 +1,147 @@
+.logo {
+  text-decoration: none;
+  color: orange;
+}
+
+.loginBtn a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 600;
+}
+
+.loginBtn {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 2px solid orange;
+  background: none;
+}
+
+ul {
+  float: right;
+}
+.navItem a:hover {
+  color: orange;
+}
+
+.btn {
+  background-color: orange;
+}
+.btn:hover {
+  background: orangered;
+  border-color: orangered;
+}
+
+.flex {
+  justify-content: space-between;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  z-index: 1000;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.logo {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+ul {
+  margin-top: 10px;
+}
+.activeHeader {
+  background-color: rgb(149, 144, 144);
+  height: 70px;
+}
+@media screen and (min-width: 1030px) {
+  .hambg {
+    display: none;
+  }
+
+  TemporaryDrawer {
+    display: none;
+  }
+}
+
+.navbar {
+  float: right !important;
+}
+
+@media screen and (max-width: 1029px) {
+  .navbar {
+    position: absolute;
+    height: max-content;
+    padding: 1rem;
+    width: 100%;
+    top: 50px;
+    left: -500%;
+    box-shadow: 0 2px 4px rgba(209, 209, 209, 0.904);
+    transition: 0.5s ease;
+    z-index: 1000;
+  }
+
+  .activeNavbar {
+    position: absolute;
+    height: max-content;
+    padding: 1rem;
+    width: 100%;
+    top: 70px;
+    left: 0%;
+    box-shadow: 0 2px 4px rgba(209, 209, 209, 0.904);
+    transition: 0.5s ease;
+    z-index: 1000;
+    background-color: white;
+    padding-bottom: 15px;
+  }
+
+  TemporaryDrawer {
+    display: block;
+  }
+  li a {
+    color: blue !important;
+  }
+  li a:hover {
+    color: orange !important;
+  }
+  .log a {
+    color: orange !important;
+  }
+  .log:hover {
+    background-color: orangered;
+  }
+  .navLists {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0%;
+  }
+
+  .navItem {
+    padding: 1rem 0;
+  }
+
+  .headerBtns {
+    flex-direction: column;
+  }
+
+  .btn {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 1030px) {
+  .log:hover {
+    background-color: orange;
+  }
+}
