@@ -1,0 +1,110 @@
+.offer-flex {
+  display: flex;
+  align-items: center;
+}
+
+.offer-icon {
+  padding: 0.1rem;
+  font-size: 2.1rem;
+  color: grey;
+}
+
+.offerTitle{
+  text-align: center;
+}
+.secIntro{
+  padding: 2rem;
+}
+.offer-btn {
+  background-color: orange;
+  border-radius: 3rem;
+  border-color: orange;
+  outline: none;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  font-weight: 600;
+  gap: 0.5rem;
+  color: white;
+}
+
+.offer-btn:hover{
+    transform: translateY(-7px);
+}
+
+small {
+  font-weight: 500;
+  color: gray;
+}
+
+.discount {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding:5px 10px;
+  background-color: rgb(231, 78, 22);
+  color: aliceblue;
+  border-radius: 3rem;
+  font-size: 12px;
+  font-weight: 500;
+  align-items: center !important;
+}
+.singleOffer {
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 8px 4px gray;
+  padding-bottom: 10px;
+}
+
+.offerBody {
+  padding: 5px;
+  padding-top: 10px;
+}
+.main-content {
+  padding: 1.5rem;
+}
+
+.offer-img{
+    position: relative;
+    height: 200px;
+    width: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.img{
+    height: 100%;
+}
+
+.price{
+    justify-content: space-between;
+}
+
+.status{
+    padding: 5px 10px;
+    background-color: rgb(241, 233, 233);
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(255, 68, 0) !important;
+}
+
+.amenities{
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 1rem 0;
+}
+
+.singleAmenity{
+    padding: 3px 8px;
+    border-radius: 5px;
+    gap: .5rem;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: gainsboro;
+}
+
+.secSubTitle{
+  text-align: center !important;
+}
