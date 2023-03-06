@@ -1,0 +1,157 @@
+.home {
+  height: 80vh;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://www.abercrombiekent.co.uk/-/media/abercrombieandkent/images/page-header-images/europe/italy/portofino/new-italy-portofino-shutterstock_531277267.jpg?w=1920&h=940");
+  object-fit: contain;
+  position: relative;
+}
+
+a:hover{
+  color: orange;
+}
+
+li a{
+  color: white;
+}
+.homeText {
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  color: antiquewhite;
+}
+
+.subTitle {
+  text-align: center !important;
+  margin: auto;
+  padding: 1rem 0;
+  opacity: 0.9;
+  max-width: 70%;
+  font-size: 13px;
+  font-weight: 300;
+  color: aliceblue !important;
+}
+
+.btn {
+  padding: 0.4rem 0.8rem;
+  background-color: rgb(255, 166, 0);
+}
+
+.btn a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.homeCard {
+  width: 80%;
+  border-radius: 1rem;
+  padding: 2rem;
+  position: absolute;
+  gap: 1rem;
+  justify-content: center;
+  bottom: -45%;
+  transform: translate(-50%);
+  left: 50%;
+  box-shadow: 0 2px 8px 4px rgb(143, 140, 140);
+  background-color: rgb(255, 255, 255);
+}
+
+.locationDiv,
+.distDiv,
+.priceDiv {
+  width: 100%;
+}
+
+label {
+  display: block;
+  color: rgb(115, 114, 114);
+  font-weight: 500;
+  font-size: 13px;
+  padding-bottom: 0.4rem;
+}
+
+input {
+  width: 100%;
+  background-color: rgb(229, 217, 217);
+  border-radius: 10px;
+  border: none;
+  font-weight: 500;
+  font-size: 13px;
+  padding: 10px;
+}
+
+::placeholder {
+  font-size: 13px;
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+input:active {
+  outline: none;
+  border-radius: 2px solid orange;
+}
+
+@media screen and (min-width: 480px) {
+  .homeCard {
+    bottom: -20%;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 556px) {
+  .title {
+    font-size: 2.5rem;
+  }
+  .subTitle{
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width:720px) {
+  .homeCard{
+    bottom: -12%;
+    grid-template-columns: repeat(4,1fr);
+  
+  }
+}
+
+@media screen and (min-width:1030px) {
+  .search{
+    transform: translateY(10px);
+  }
+}
+
+@media screen and (max-width:1029px) {
+  .search{
+    transform: translateY(5px);
+  }
+}
+
+@media screen and (min-width:720px) {
+  .homeText{
+    padding: 1rem 10rem;
+  }
+  .title{
+    margin: auto;
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+  .subTitle{
+    width: 70%;
+  }
+}
+
+
+
+@media screen and (min-width:455px) and (max-width:719px) {
+  .homeText{
+    padding: 1rem 6rem;
+  }
+}
