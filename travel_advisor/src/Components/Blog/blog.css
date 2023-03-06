@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Josefin+Sans&family=Kanit&family=Lora&family=PT+Serif&family=Roboto+Condensed:wght@700&family=Signika+Negative:wght@500&family=Yanone+Kaffeesatz:wght@300;500&display=swap");
+.blog-grid {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  max-width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog {
+  padding: 1rem;
+}
+
+.read {
+  text-align: left !important;
+}
+
+.readFlex {
+  justify-content: flex-start;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+
+.blogImg {
+  height: 200px;
+  width: 100%;
+  box-shadow: 0px 2px 8px 2px gray;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.postTitle {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Yanone Kaffeesatz", Impact, sans-serif;
+  font-weight: 400 !important;
+}
+
+.readIcon {
+  font-size: 24px;
+}
+
+.readFlex:hover {
+  color: orange;
+}
+
+.singlePost {
+  display: grid;
+  gap: 15px;
+}
+.blog-grid {
+  display: grid;
+  gap: 25px;
+}
+
+.singlePost {
+  max-width: 500px;
+  min-width: 270px;
+  border: 2px solid teal;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.blogTitle {
+  text-align: center;
+}
+
+p,
+.blogList {
+  color: black !important;
+  font-size: 18px;
+  opacity: 1;
+  text-align: justify !important;
+  text-justify: inter-word;
+}
+.postSubtitle {
+  color: black;
+  font-size: 15px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+@media screen and (max-width: 940px) {
+  .singlePost {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (min-width: 1060px) {
+  .blog-grid {
+    padding-left: 45px;
+    padding-right: 45px;
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .japanBlog {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media screen and (min-width: 771px) {
+  .japanBlog {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+.blogList {
+  list-style-type: disc;
+}
+
+.listText {
+  color: black;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.first {
+  font-size: 26px;
+  font-weight: 400 !important;
+  color: black;
+  font-family: "Fjalla One", sans-serif;
+  margin-bottom: 20px;
+  margin-top: 35px;
+}
+
+.entryTitle {
+  font-family: "Fjalla One", Impact, sans-serif;
+  font-size: 34px;
+  max-width: 850px;
+  font-weight: 400 !important;
+  margin-bottom: 20px;
+}
+
+.blogImage {
+  margin-bottom: 12px;
+  max-width: 100%;
+  height: auto;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+strong {
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+ol li {
+  list-style-type: decimal;
+}
+
+.hotelsList {
+  float: none !important;
+}
+
+.hotelLink {
+  color: rgb(0, 72, 255);
+}
+
+.blogSubTitle {
+  text-align: center !important;
+}
